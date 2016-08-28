@@ -7,10 +7,10 @@ library(ggplot2)
 
 
 shinyServer(function(input, output, session) {
-  consumerKey <- "1N3o5iJxD8wLtaV4PLvDihHig"
-  consumerSecret <- "VQ6mZdqxZaTLSJcvVtnbFN4lEIEZKgrCp66pt42T0mkOrmvRqQ"
-  accessToken <- "3809207654-n5NDkivpYxAFdQOiq8c4UrFfI0khPzWZUSj4zmj"
-  accessTokenSecret <- "wOX3cWiMkQy19sLPnB7JZSPxnxrzCRGNWn1OYUJhuyeCC"
+  consumerKey <- ""
+  consumerSecret <- ""
+  accessToken <- ""
+  accessTokenSecret <- ""
   
   setup_twitter_oauth(consumerKey, consumerSecret, accessToken, accessTokenSecret)
 
